@@ -7,7 +7,6 @@ return {
           filetypes = { "vue" },
           init_options = {
             typescript = {
-              -- Use your local TypeScript SDK (important)
               tsdk = vim.fn.expand(
                 "~/.local/share/nvim/mason/packages/typescript-language-server/node_modules/typescript/lib"
               ),
