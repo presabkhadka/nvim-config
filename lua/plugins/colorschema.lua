@@ -1,9 +1,9 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "moonfly",
     },
   },
 }
